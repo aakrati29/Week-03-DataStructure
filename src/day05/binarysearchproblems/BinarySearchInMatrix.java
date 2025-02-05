@@ -1,6 +1,6 @@
 package day05.binarysearchproblems;
 
-public class TargetValueIn2DSortedMatrixProblem {
+public class BinarySearchInMatrix {
 
     private static int[] target(int[][] arr, int target) {
         int n = arr.length;
