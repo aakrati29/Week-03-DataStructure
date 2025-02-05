@@ -1,6 +1,6 @@
 package day05.binarysearchproblems;
 
-public class FindTheRotationPointInRotatedSortedArray {
+public class FindRotationPoint {
     private static int rotationPoint(int[] arr) {
         int left = 0;
         int right = arr.length-1;
