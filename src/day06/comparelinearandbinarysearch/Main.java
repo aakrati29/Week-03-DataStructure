@@ -32,9 +32,9 @@ public class Main {
             arr2[i] = 10000-i-1;
         }
 
-        int[] arr3 = new int[100000];
-        for(int i = 0; i < 100000; i++){
-            arr3[i] = 100000-i-1;
+        int[] arr3 = new int[1000000];
+        for(int i = 0; i < 1000000; i++){
+            arr3[i] = 1000000-i-1;
         }
 
         System.out.println("Total time taken by Linear Search in 1000 size of array : " + linear(arr1,5));
